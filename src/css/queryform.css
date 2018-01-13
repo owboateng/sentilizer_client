@@ -1,0 +1,39 @@
+.page-heading {
+  color: red;
+}
+.query-form-wrapper, .response-wrapper {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.query-form-wrapper label {
+  color: #FFF;
+}
+.query-form-wrapper label,
+.query-form-wrapper textarea,
+.query-form-wrapper button {
+  width: 100%;
+}
+.query-form-wrapper textarea {
+  min-height: 200px;
+  margin-top: 15px;
+}
+.query-form-wrapper button {
+  height: 40px;
+  margin-top: 30px;
+  border-radius: 5px;
+  background-color: #84C00C;
+  border: none;
+}
+
+.query-form-wrapper button:hover {
+  background-color: #669509;
+}
+
+.query-form-wrapper button:disabled {
+  background-color: #F5F5F5;
+}
+.response-wrapper {
+  background-color: #F5F5F5;
+}
